@@ -1,0 +1,88 @@
+body {
+  font-family: "Open Sans", sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.Sesion {
+  color: #000;
+  text-decoration: none;
+}
+.icons a {
+  margin: 0 0.5rem;
+}
+
+.icons img {
+  height: 24px;
+}
+
+.contact-info {
+  margin-left: 1rem;
+  color: #333;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  color: #333;
+}
+
+.user img {
+  height: 24px;
+  margin-left: 0.5rem;
+}
+svg#icon {
+  width: 24px;
+  height: 24px;
+}
+.contact a {
+  background-color: #d4a373;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+div.contact-info.col {
+  flex: none;
+}
