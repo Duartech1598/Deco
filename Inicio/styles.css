@@ -216,7 +216,7 @@ h1 {
 }
 .image-item img {
   width: 300px;
-  height: auto;
+  height: 300px;
   display: block;
   border-radius: 8px;
 }
@@ -446,45 +446,89 @@ span.Copyright {
   padding: 0 50px 20px 0;
 }
 
+<<<<<<< HEAD
 .card {
+=======
+
+body{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(209, 209, 134);
+  flex-wrap: nowrap;
+}
+
+
+.card{
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
   position: relative;
   width: 500px;
   height: 300px;
 }
 
+<<<<<<< HEAD
 .card .face {
+=======
+.card .face{
+
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
   border-radius: 10px;
+<<<<<<< HEAD
   transition: 0.5s;
 }
 
 .card .front {
+=======
+  transition: .5s;
+}
+
+.card .front{
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
   transform: perspective(600px) rotateY(0deg);
   box-shadow: 0 5px 10px #000;
 }
 
+<<<<<<< HEAD
 .card .front img {
+=======
+.card .front img{
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
   position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+<<<<<<< HEAD
 .card .front h3 {
+=======
+.card .front h3{
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
   position: absolute;
   bottom: 0;
   width: 100px;
   height: 45px;
   line-height: 45px;
   color: aliceblue;
+<<<<<<< HEAD
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
 }
 
 .card .back {
+=======
+  background: rgba(0, 0, 0, .4);
+  text-align: center;
+}
+
+.card .back{
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
   transform: perspective(600px) rotateY(180deg);
   box-shadow: 0 5px 10px #000;
   background: #000;
@@ -496,14 +540,23 @@ span.Copyright {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .card .back .link {
+=======
+.card .back .link{
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
   border-top: solid 1px #f3f3f3;
   height: 50px;
   line-height: 50px;
 }
 
+<<<<<<< HEAD
 .card .back .link a {
   color: #f3f3f3;
+=======
+.card .back .link a{
+ color:  #f3f3f3;
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
 }
 
 .card:hover .front {
@@ -512,3 +565,7 @@ span.Copyright {
 .card:hover .back {
   transform: perspective(600px) rotateY(360deg);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f8cfae9f65d6a9133d15ad8daa0999ee6bab50be
