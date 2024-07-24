@@ -63,7 +63,6 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .icons {
   display: flex;
   align-items: center;

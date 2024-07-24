@@ -70,7 +70,7 @@ body {
 }
 
 .Sesion {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 .icons a {
@@ -85,14 +85,26 @@ body {
   margin-left: 1rem;
   color: #333;
 }
-
-.user {
+a.Sesion {
+  background-color: #d4a373;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  position: relative;
   display: flex;
   align-items: center;
-  margin-left: 1rem;
-  color: #333;
 }
-
+.cls-1 {
+  stroke: #fff;
+}
+rect#_Transparent_Rectangle.cls-1 {
+  stroke: #fff;
+}
+.col {
+  flex: none;
+}
 .user img {
   height: 24px;
   margin-left: 0.5rem;
@@ -101,12 +113,13 @@ svg#icon {
   width: 24px;
   height: 24px;
 }
+
 .contact a {
   background-color: #d4a373;
   color: #fff;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 20px;
   font-weight: bold;
   position: relative;
   display: flex;
@@ -181,6 +194,10 @@ div.contact-info.col {
   background-color: #3d2b1f;
   color: #fff;
   padding: 2rem;
+}
+section#secciones col-md-4 seccion-margen mb-5 {
+  display: flex;
+  flex-direction: row;
 }
 div.container {
   padding: 0;
