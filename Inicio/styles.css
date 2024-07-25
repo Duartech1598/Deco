@@ -114,6 +114,10 @@ svg#icon {
   height: 24px;
 }
 
+path.sierra{
+  fill: #000;
+}
+
 .contact a {
   background-color: #d4a373;
   color: #fff;
