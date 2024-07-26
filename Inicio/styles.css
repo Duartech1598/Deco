@@ -45,6 +45,11 @@ body {
 
 /*IKEA*/
 
+.contenedor{
+  overflow: auto;
+   overflow-x: scroll;
+   position: relative;
+}
 .menu {
   display: flex;
   justify-content: space-around;
@@ -87,7 +92,7 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  top: 100%; /* Posiciona debajo del elemento padre */
+  top: 0%; /* Posiciona debajo del elemento padre */
   left: 50%;
   transform: translateX(-50%); /* Centrar horizontalmente */
   background-color: #fff;
@@ -97,7 +102,7 @@ body {
   margin: 0;
   width: auto;
   white-space: nowrap;
-  z-index: 1000; /* Asegurar que el submenú esté por encima de otros elementos */
+  z-index: 5000; /* Asegurar que el submenú esté por encima de otros elementos */
 
 }
 
