@@ -42,6 +42,94 @@ body {
   color: #c79a55;
   text-decoration: underline;
 }
+
+/*IKEA*/
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 0 0 30px 0;
+}
+
+.menu-main {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-main > li {
+  position: relative;
+  text-align: center; /* Centrar el contenido */
+}
+
+.menu-main > li > a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  display: block;
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el enlace */
+  transition: border-bottom 0.3s; /* Transición suave para la línea */
+}
+
+.menu-main > li > a img {
+  display: block;
+  margin: 0 auto 5px; /* Centrar la imagen y añadir margen debajo */
+  width: 110px; /* Ajustar el ancho de la imagen */
+  height: auto; /* Mantener la proporción de la imagen */
+}
+
+.menu-main > li > a:hover {
+  border-bottom: 2px solid #333; /* Añadir la línea debajo del enlace */
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Posiciona debajo del elemento padre */
+  left: 50%;
+  transform: translateX(-50%); /* Centrar horizontalmente */
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  width: auto;
+  white-space: nowrap;
+  z-index: 1000; /* Asegurar que el submenú esté por encima de otros elementos */
+
+}
+
+.submenu li {
+    /* Mostrar los elementos en línea */
+  width: 200px; /* Ajustar el ancho de cada elemento */
+  vertical-align: top; /* Alinear los elementos verticalmente */
+}
+
+.submenu li:nth-child(odd) {
+  clear: left; /* Limpiar a la izquierda para los elementos impares */
+}
+
+.submenu li:nth-child(even) {
+  clear: none; /* No limpiar a la izquierda para los elementos pares */
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: block;
+  transition: border-bottom 0.3s; /* Transición suave para la línea */
+}
+
+.submenu li a:hover {
+  border-bottom: 2px solid #333; /* Añadir la línea debajo del enlace */
+  background-color: #f8f8f8;
+}
+
+
+/*Drop*/
 .dropdown {
   position: relative;
   display: inline-block;
