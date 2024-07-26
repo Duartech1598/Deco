@@ -45,10 +45,10 @@ body {
 
 /*IKEA*/
 
-.contenedor{
+.contenedor {
   overflow: auto;
-   overflow-x: scroll;
-   position: relative;
+  overflow-x: scroll;
+  position: relative;
 }
 .menu {
   display: flex;
@@ -59,7 +59,7 @@ body {
 
 .menu-main {
   list-style: none;
-  padding: 0;
+  padding: 20px;
   margin: 0;
   display: flex;
 }
@@ -103,11 +103,10 @@ body {
   width: auto;
   white-space: nowrap;
   z-index: 5000; /* Asegurar que el submenú esté por encima de otros elementos */
-
 }
 
 .submenu li {
-    /* Mostrar los elementos en línea */
+  /* Mostrar los elementos en línea */
   width: 200px; /* Ajustar el ancho de cada elemento */
   vertical-align: top; /* Alinear los elementos verticalmente */
 }
@@ -132,7 +131,6 @@ body {
   border-bottom: 2px solid #333; /* Añadir la línea debajo del enlace */
   background-color: #f8f8f8;
 }
-
 
 /*Drop*/
 .dropdown {
@@ -207,7 +205,7 @@ svg#icon {
   height: 24px;
 }
 
-path.sierra{
+path.sierra {
   fill: #000;
 }
 
