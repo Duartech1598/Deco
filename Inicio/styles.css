@@ -96,8 +96,8 @@ body {
 .menu-main > li > a img {
   display: block;
   margin: 0 auto 5px; /* Centrar la imagen y añadir margen debajo */
-  width: 110px; /* Ajustar el ancho de la imagen */
-  height: auto; /* Mantener la proporción de la imagen */
+  width: 140px; /* Ajustar el ancho de la imagen */
+  height: 110px; /* Mantener la proporción de la imagen */
 }
 
 .menu-main > li > a:hover {
@@ -149,6 +149,10 @@ ul.submenu {
   background-color: #f8f8f8;
 }
 
+.submenu:hover .menu {
+  display: block;
+}
+
 /*Drop*/
 .dropdown {
   position: relative;
@@ -171,6 +175,8 @@ ul.submenu {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+ 
 
 .icons {
   display: flex;
