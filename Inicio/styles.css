@@ -285,6 +285,17 @@ div.contact-info.col {
   flex-direction: row;
   text-align: center;
 }
+svg.hola {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 100px;
+  margin: 60px 0 0 0;
+  padding: 10px;
+}
+div.product-info {
+  height: 300px;
+}
 .carta:first-child {
   background-color: #333;
   color: #fff;
@@ -420,17 +431,16 @@ body {
   justify-content: center;
 }
 
- h1.epa{
- text-align: left;
- margin: 40px; 
- padding: 15px;
- }
+h1.epa {
+  text-align: left;
+  margin: 33px;
+}
 
 .product-card {
   width: 390px;
   height: 600px;
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
   position: relative;
@@ -452,10 +462,10 @@ body {
 .product-info h2 {
   margin: 0;
   font-size: 1.2em;
-  color: #000000;
+  color: #fff;
 }
 .product-info p {
-  color: #000000;
+  color: #fff;
   margin: 8px 0;
 }
 .product-info button {
@@ -479,7 +489,7 @@ body {
   background-color: white;
   padding: 5px 10px;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .price-tag span {
   font-weight: bold;
