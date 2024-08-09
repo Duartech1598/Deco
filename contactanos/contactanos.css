@@ -16,8 +16,9 @@ body {
 
 h1 {
     color: #333;
-    width: 100%;
-    padding: 0 0 0 60px;
+    font-size: 40px;
+    margin: 0;
+    padding: 40px 0 40px 60px;
 }
 
 p {
@@ -38,8 +39,18 @@ input, textarea {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
 }
 
+input:focus {
+    border-color:  #c19163 !important; /* Forzar el color del borde cuando el input está en foco */
+    outline: none; /* Eliminar el contorno azul predeterminado del navegador */
+}
+
+textarea:focus {
+    border-color:  #c19163; /* Forzar el color del borde cuando el input está en foco */
+    outline: none; /* Eliminar el contorno azul predeterminado del navegador */
+}
 textarea {
     resize: vertical;
 }
@@ -68,4 +79,21 @@ button:hover {
 
 .company-info p {
     margin: 5px 0;
+}
+
+ul.listas-contactos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+img{
+    width: 18px;
+    margin: 0 10px 0 0;
 }
