@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="contactanos.css">
+</head>
+<body>
+    <div><h1>Contáctenos</h1></div>
+    <div class="container">
+        
+       
+        
+        <form id="contactForm">
+            <p>Contáctenos sobre cualquier cosa relacionada con nuestra empresa o servicios. <br>Haremos todo lo posible para llamarte lo antes posible.</p>
+            <label for="name">Nombre *</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Número de teléfono *</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Correo electrónico *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="company">Empresa</label>
+            <input type="text" id="company" name="company">
+
+            <label for="subject">Asunto</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Pregunta *</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="company-info">
+            <p><strong>Mi compañía</strong></p>
+            <p>calle 9 1-31 Villanueva</p>
+            <p>+57 (318)665-7064</p>
+            <p>Decocenter@gmail.com</p>
+        </div>
+    </div>
+
+    <script src="contactanos.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    background-color: #fff;
+    padding: 20px 0 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    width: 100%;
+    padding: 0 0 0 60px;
+}
+
+p {
+    text-align: left;
+    color: #666;
+    width: 100%;
+}
+
+form {
+    flex: 1;
+    padding: 20px 30px 20px 40px; 
+}
+
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: #c19163;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a37850;
+}
+
+.company-info {
+    flex-basis: 27%; /* Ajusta según sea necesario */
+    text-align: right;
+    margin-top: 0;
+    padding: 30px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
