@@ -97,3 +97,13 @@ img{
     width: 18px;
     margin: 0 10px 0 0;
 }
+img.inicio{
+    width: 30px;
+    padding: 0 20px 0 0;
+}
+div.casa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
